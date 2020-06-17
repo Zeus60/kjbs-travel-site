@@ -2,6 +2,7 @@
         padding-top: 10px;
         &--pull-right {
             @mixin atMedium {
+                float: right;
                 padding-top: 0;
             }
         }

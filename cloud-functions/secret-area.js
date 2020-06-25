@@ -1,8 +1,9 @@
 exports.handler = function(event, context, callback) {
     const secretContent = `
 	<h3>Welcome To The Secret Area</h3>
-<p>Here we can tell you that the sky is <strong>blue</strong>, and 2+2 equals 4.</p>	`
+<p>Here we can tell you that the sky is <strong>blue</strong>, and 2+2 equals 4.</p>`
     let body
+
     if (event.body) {
         body = JSON.parse(event.body)
     } else {
@@ -19,5 +20,4 @@ exports.handler = function(event, context, callback) {
             statusCode: 401
         })
     }
-
 }

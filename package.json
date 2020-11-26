@@ -1,5 +1,5 @@
 {
-  "name": "travel-site",
+  "name": "kjbs-travel-site",
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve",

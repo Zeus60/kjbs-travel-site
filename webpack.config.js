@@ -31,6 +31,7 @@ let cssConfig = {
     },
   ],
 };
+
 let pages = fse
   .readdirSync("./app")
   .filter(function (file) {
@@ -42,6 +43,7 @@ let pages = fse
       template: `./app/${page}`,
     });
   });
+
 let config = {
   entry: "./app/assets/scripts/App.js",
   plugins: pages,

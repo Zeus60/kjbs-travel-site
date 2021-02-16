@@ -12,10 +12,7 @@ import ReactDOM from "react-dom";
 //Import React component that we created
 import MyAmazingComponent from "./modules/MyAmazingComponent";
 
-ReactDOM.render(
-  <MyAmazingComponent />,
-  document.querySelector("#my-react-example")
-);
+ReactDOM.render(<MyAmazingComponent />, document.querySelector("#my-react-example")<div id="my-react-example"></div>);
 
 new ClientArea();
 new StickyHeader();
